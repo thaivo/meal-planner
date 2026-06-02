@@ -1,0 +1,40 @@
+meals
+
+category: noodle soups, desserts, stir-fried dishes, congees, hot pots, grilled dishes,
+
+taste: sour ( chua), ngot ( sweet), spicy( cay)
+
+appetizers, main courses, desserts, drinks
+
+tMeals
+
+
+Table tCategories {
+  id integer [primary key]
+  category text
+}
+
+Records tCategories(id, category) {
+  0, 'appetizers'
+  1, 'main courses'
+  2, 'desserts'
+  3, 'drinks'
+}
+
+Table tMeals {
+  id integer [primary key]
+  name text
+  category integer [not null]
+}
+
+Ref tmeals_categories: tMeals.category > tCategories.id // many-to-one
+
+
+Records tMeals(id, name, category) {
+  0, 'Pho', 1
+  1, 'bun bo', 1
+  2, 'tra da', 3
+  3, 'che thai', 2
+}
+
+Diagram: https://dbdiagram.io/d/meal-planner-db-design-draft-version-6a1e461af15b4b04524f4e3c
