@@ -38,3 +38,20 @@ Records tMeals(id, name, category) {
 }
 
 Diagram: https://dbdiagram.io/d/meal-planner-db-design-draft-version-6a1e461af15b4b04524f4e3c
+
+
+Content
+tdishes
+id  name
+1   pho
+2   goi cuon
+
+tingredients
+rice noodle
+Beef marrow bones (xuong ong bo)
+Beef Brisket(nam bo)
+rare beef (Bò tái:1,2kg)
+vietnamese basil (Quế: 6g)
+star anise (Hoa hồi: 6g)
+dried tangerine peel(Hoa hồi: 6g)
+clove (Đinh hương: 1g)
