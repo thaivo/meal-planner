@@ -47,7 +47,12 @@ id  name
 2   goi cuon
 
 tingredients
-rice noodle
+id  name
+
+
+tfood_ingredient
+
+Example: rice noodle (pho)
 Beef marrow bones (xuong ong bo)
 Beef Brisket(nam bo)
 rare beef (Bò tái:1,2kg)
@@ -72,3 +77,31 @@ rock sugar (Đường phèn: 15g)
 seasoning powder (Bột nêm: 16g)
 chili sauce
 hoisin sauce
+
+
+CREATE TABLE IF NOT EXISTS trecipes (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  title TEXT NOT NULL,
+  description TEXT
+)
+
+CREATE TABLE IF NOT EXISTS tingredients (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL
+)
+
+CREATE TABLE IF NOT EXISTS tsteps (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  recipe_id INTEGER NOT NULL,
+  step_number INTEGER NOT NULL,
+  content TEXT,
+  FOREIGN KEY (recipe_id) REFERENCES trecipes (id)
+)
+
+CREATE TABLE IF NOT EXISTS tstep_ingredient (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  step_id INTEGER NOT NULL,
+  ingredient_id INTEGER,
+  FOREIGN KEY (step_id) REFERENCES tsteps (id),
+  FOREIGN KEY (ingredient_id) REFERENCES tingredients (id)
+)
