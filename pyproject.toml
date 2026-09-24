@@ -1,0 +1,11 @@
+# This file is part of the Meal Planner project (https://meal-planner.dev).
+# Copyright (c) 2026. Nguyen Thai Vo <thai2903@gmail.com>
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code.
+[tool.fastapi]
+entry_point = "app.main:app"
+
+[dependency-groups]
+dev = [
+    "sqlmodel>=0.0.42",
+]
