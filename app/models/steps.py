@@ -1,8 +1,8 @@
 
 from sqlmodel import Field, Relationship, SQLModel
 
-from app.models.ingredients import Ingredient
-
+from .ingredients import Ingredient
+from .stepingredientlink import StepIngredientLink
 
 class Step(SQLModel, table=True):
     id: int = Field(default=None, primary_key=True)
@@ -10,4 +10,4 @@ class Step(SQLModel, table=True):
     step_number: int = Field(default=None, nullable=False)
     description: str = Field(default=None, nullable=False)
 
-    ingredients: list["Ingredient"] = Relationship(back_populates="steps", link_model="StepIngredientLink")
+    ingredients: list["Ingredient"] = Relationship(back_populates="steps", link_model=StepIngredientLink)
