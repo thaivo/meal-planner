@@ -1,0 +1,59 @@
+{
+    "title": "Vietnamese Beef Phở",
+    "description": "Traditional beef noodle soup with a rich, clear bone broth.",
+    "ingredients": [
+        {
+            "name": "Beef bones",
+            "category": "Meat",
+            "quantity": "2",
+            "unit": "kilogram"
+        },
+        {
+            "name": "White onion",
+            "category": "Vegetables",
+            "quantity": "1",
+            "unit": "Large piece"
+        },
+        {
+            "name": "Fresh ginger",
+            "category": "Vegetables",
+            "quantity": "1",
+            "unit": "Large piece"
+        },
+        {
+            "name": "Star anise",
+            "category": "Spices",
+            "quantity": "5",
+            "unit": "piece"
+        },
+        {
+            "name": "Cinnamon stick",
+            "category": "Spices",
+            "quantity": "2",
+            "unit": "piece"
+        },
+        {
+            "name": "Rice noodles",
+            "category": "Grains",
+            "quantity": "400",
+            "unit": "gram"
+        }
+    ],
+    "steps": [
+        {
+            "step_number": 1,
+            "instruction_text": "Roast the spices and simmer the beef bones for 6–8 hours to create the broth.",
+            "ingredients_used": [
+                "Beef bones",
+                "Star anise"
+            ]
+        },
+        {
+            "step_number": 2,
+            "instruction_text": "Blanch the rice noodles and place them in a bowl.",
+            "ingredients_used": [
+                "Rice noodles"
+            ]
+        }
+    ]
+}
