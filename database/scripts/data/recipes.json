@@ -1,59 +1,1744 @@
-{
-    "title": "Vietnamese Beef Phở",
-    "description": "Traditional beef noodle soup with a rich, clear bone broth.",
-    "ingredients": [
-        {
-            "name": "Beef bones",
-            "category": "Meat",
-            "quantity": "2",
-            "unit": "kilogram"
-        },
-        {
-            "name": "White onion",
-            "category": "Vegetables",
-            "quantity": "1",
-            "unit": "Large piece"
-        },
-        {
-            "name": "Fresh ginger",
-            "category": "Vegetables",
-            "quantity": "1",
-            "unit": "Large piece"
-        },
-        {
-            "name": "Star anise",
-            "category": "Spices",
-            "quantity": "5",
-            "unit": "piece"
-        },
-        {
-            "name": "Cinnamon stick",
-            "category": "Spices",
-            "quantity": "2",
-            "unit": "piece"
-        },
-        {
-            "name": "Rice noodles",
-            "category": "Grains",
-            "quantity": "400",
-            "unit": "gram"
-        }
-    ],
-    "steps": [
-        {
-            "step_number": 1,
-            "instruction_text": "Roast the spices and simmer the beef bones for 6–8 hours to create the broth.",
-            "ingredients_used": [
-                "Beef bones",
-                "Star anise"
-            ]
-        },
-        {
-            "step_number": 2,
-            "instruction_text": "Blanch the rice noodles and place them in a bowl.",
-            "ingredients_used": [
-                "Rice noodles"
-            ]
-        }
-    ]
-}
+[
+    {
+        "title": "Vietnamese Beef Phở",
+        "description": "Traditional beef noodle soup with a rich, clear bone broth.",
+        "ingredients": [
+            {
+                "name": "Beef bones",
+                "category": "Meat",
+                "quantity": "2",
+                "unit": "kilogram"
+            },
+            {
+                "name": "Star anise",
+                "category": "Spices",
+                "quantity": "5",
+                "unit": "piece"
+            },
+            {
+                "name": "Rice noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Roast the spices and simmer the beef bones for 6–8 hours to create the broth.",
+                "ingredients_used": [
+                    "Beef bones",
+                    "Star anise"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Blanch the rice noodles and place them in a bowl.",
+                "ingredients_used": [
+                    "Rice noodles"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bún Bò Huế",
+        "description": "A spicy, deeply aromatic central Vietnamese beef and pork noodle soup infused with lemongrass and shrimp paste.",
+        "ingredients": [
+            {
+                "name": "Beef marrow bones",
+                "category": "Meat",
+                "quantity": "1",
+                "unit": "kilogram"
+            },
+            {
+                "name": "Pork hocks",
+                "category": "Meat",
+                "quantity": "500",
+                "unit": "gram"
+            },
+            {
+                "name": "Beef shank",
+                "category": "Meat",
+                "quantity": "500",
+                "unit": "gram"
+            },
+            {
+                "name": "Lemongrass stalks",
+                "category": "Spices",
+                "quantity": "6",
+                "unit": "piece"
+            },
+            {
+                "name": "Vietnamese shrimp paste (Mắm Ruốc)",
+                "category": "Condiments",
+                "quantity": "2",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Annatto seeds",
+                "category": "Spices",
+                "quantity": "2",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Thick round rice noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Banana blossom & Mint mix",
+                "category": "Produce",
+                "quantity": "150",
+                "unit": "gram"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Parboil and rinse the beef bones, pork hocks, and beef shank to remove impurities before beginning the main clear broth.",
+                "ingredients_used": [
+                    "Beef marrow bones",
+                    "Pork hocks",
+                    "Beef shank"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Simmer the rinsed bones and meats in fresh water alongside bruised lemongrass stalks for 2 to 3 hours, skimming the surface regularly.",
+                "ingredients_used": [
+                    "Beef marrow bones",
+                    "Pork hocks",
+                    "Beef shank",
+                    "Lemongrass stalks"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Dissolve the mắm ruốc shrimp paste in cold water, let the solids settle, then ladle the clear seasoned liquid into the simmering broth.",
+                "ingredients_used": [
+                    "Vietnamese shrimp paste (Mắm Ruốc)"
+                ]
+            },
+            {
+                "step_number": 4,
+                "instruction_text": "Heat oil in a small pan, fry the annatto seeds until the oil turns a deep vibrant red, strain out the seeds, and pour the colored oil into the soup broth.",
+                "ingredients_used": [
+                    "Annatto seeds"
+                ]
+            },
+            {
+                "step_number": 5,
+                "instruction_text": "Boil the thick round rice noodles until tender, drain, and assemble in serving bowls topped with sliced meats, hot broth, and fresh herbs.",
+                "ingredients_used": [
+                    "Thick round rice noodles",
+                    "Beef shank",
+                    "Pork hocks",
+                    "Banana blossom & Mint mix"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bún Chả Hà Nội",
+        "description": "Hanoi-style smoky charcoal-grilled pork patties and pork belly served swimming in a warm, sweet-tangy dipping broth with light vermicelli noodles.",
+        "ingredients": [
+            {
+                "name": "Ground pork shoulder",
+                "category": "Meat",
+                "quantity": "500",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork belly slices",
+                "category": "Meat",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Minced garlic & Shallots",
+                "category": "Produce",
+                "quantity": "4",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Fish sauce",
+                "category": "Condiments",
+                "quantity": "6",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Caramel sauce (Nước Màu)",
+                "category": "Condiments",
+                "quantity": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Green papaya or Kohlrabi",
+                "category": "Produce",
+                "quantity": "1",
+                "unit": "piece"
+            },
+            {
+                "name": "Rice vermicelli noodles (Bún)",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Perilla leaves & Herbs",
+                "category": "Produce",
+                "quantity": "1",
+                "unit": "bunch"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Marinate the ground pork shoulder and sliced pork belly in separate bowls using minced garlic, shallots, fish sauce, and nước màu for at least 1 hour.",
+                "ingredients_used": [
+                    "Ground pork shoulder",
+                    "Pork belly slices",
+                    "Minced garlic & Shallots",
+                    "Fish sauce",
+                    "Caramel sauce (Nước Màu)"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Shape the ground pork into flat round patties, then grill both the patties and the pork belly slices over charcoal until beautifully charred and cooked through.",
+                "ingredients_used": [
+                    "Ground pork shoulder",
+                    "Pork belly slices"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Thinly slice the green papaya, massage with salt, rinse, and quick-pickle them in sugar and vinegar for 20 minutes to maintain crispiness.",
+                "ingredients_used": [
+                    "Green papaya or Kohlrabi"
+                ]
+            },
+            {
+                "step_number": 4,
+                "instruction_text": "Simmer fish sauce, sugar, vinegar, and water to build a warm, diluted dipping broth; stir in the pickled papaya chunks along with fresh chili.",
+                "ingredients_used": [
+                    "Fish sauce",
+                    "Green papaya or Kohlrabi"
+                ]
+            },
+            {
+                "step_number": 5,
+                "instruction_text": "Serve the warm broth filled with grilled pork meats on a large platter next to plates of fresh rice vermicelli and clean perilla herbs.",
+                "ingredients_used": [
+                    "Rice vermicelli noodles (Bún)",
+                    "Perilla leaves & Herbs",
+                    "Ground pork shoulder",
+                    "Pork belly slices"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Xèo",
+        "description": "Crispy, sizzling yellow rice flour pancakes filled with pork belly strips, fresh shrimp, and bean sprouts.",
+        "ingredients": [
+            {
+                "name": "Rice flour",
+                "category": "Grains",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Turmeric powder",
+                "category": "Spices",
+                "quantity": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "name": "Coconut milk",
+                "category": "Dairy",
+                "quantity": "200",
+                "unit": "milliliter"
+            },
+            {
+                "name": "Pork belly (thinly sliced)",
+                "category": "Meat",
+                "quantity": "150",
+                "unit": "gram"
+            },
+            {
+                "name": "Fresh shrimp (peeled)",
+                "category": "Meat",
+                "quantity": "150",
+                "unit": "gram"
+            },
+            {
+                "name": "Bean sprouts",
+                "category": "Produce",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Green onions (sliced)",
+                "category": "Produce",
+                "quantity": "4",
+                "unit": "stalk"
+            },
+            {
+                "name": "Mustard greens & Lettuce",
+                "category": "Produce",
+                "quantity": "1",
+                "unit": "head"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Whisk together rice flour, turmeric powder, salt, coconut milk, and water until completely smooth, then stir in the sliced green onions and rest for 30 minutes.",
+                "ingredients_used": [
+                    "Rice flour",
+                    "Turmeric powder",
+                    "Coconut milk",
+                    "Green onions (sliced)"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Heat a drop of oil in a hot skillet, sear a few pieces of pork belly and shrimp for 1 minute until partially cooked.",
+                "ingredients_used": [
+                    "Pork belly (thinly sliced)",
+                    "Fresh shrimp (peeled)"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Ladle a thin layer of batter into the pan, swirling rapidly to coat the entire cooking surface until thin and sizzling.",
+                "ingredients_used": [
+                    "Rice flour",
+                    "Turmeric powder",
+                    "Coconut milk",
+                    "Green onions (sliced)"
+                ]
+            },
+            {
+                "step_number": 4,
+                "instruction_text": "Place a handful of raw bean sprouts on one side of the crepe, cover with a lid for 2 minutes to steam the sprouts, then cook uncovered until the edges turn golden and crispy.",
+                "ingredients_used": [
+                    "Bean sprouts"
+                ]
+            },
+            {
+                "step_number": 5,
+                "instruction_text": "Fold the pancake cleanly in half over the fillings and slide onto a platter to be cut up and wrapped inside mustard green leaves with herbs.",
+                "ingredients_used": [
+                    "Mustard greens & Lettuce"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Bèo",
+        "description": "Central Vietnamese steamed savory rice cakes served in small ceramic saucers, topped with dried shrimp flakes, crispy pork rinds, and scallion oil.",
+        "ingredients": [
+            {
+                "name": "Rice flour",
+                "category": "Grains",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Tapioca starch",
+                "category": "Grains",
+                "quantity": "30",
+                "unit": "gram"
+            },
+            {
+                "name": "Fresh shrimp (shelled)",
+                "category": "Meat",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork skin (for rinds)",
+                "category": "Meat",
+                "quantity": "100",
+                "unit": "gram"
+            },
+            {
+                "name": "Green onions (sliced)",
+                "category": "Produce",
+                "quantity": "4",
+                "unit": "stalk"
+            },
+            {
+                "name": "Fish sauce",
+                "category": "Condiments",
+                "quantity": "3",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Melted lard or cooking oil",
+                "category": "Fats",
+                "quantity": "4",
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Whisk rice flour, tapioca starch, salt, cold water, and a splash of boiling water into a smooth, thin batter, then let it rest for 30 minutes.",
+                "ingredients_used": [
+                    "Rice flour",
+                    "Tapioca starch"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Boil, finely mince, and dehydrate the fresh shrimp in a dry skillet over low heat until they turn into fluffy, vibrant orange shrimp flakes.",
+                "ingredients_used": [
+                    "Fresh shrimp (shelled)"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Fry the diced pork skin in deep oil until puffed and crunchy to create crispy pork rinds.",
+                "ingredients_used": [
+                    "Pork skin (for rinds)"
+                ]
+            },
+            {
+                "step_number": 4,
+                "instruction_text": "Heat melted lard in a pan and pour it directly over sliced green onions in a bowl to create aromatic scallion oil.",
+                "ingredients_used": [
+                    "Green onions (sliced)",
+                    "Melted lard or cooking oil"
+                ]
+            },
+            {
+                "step_number": 5,
+                "instruction_text": "Steam empty small ceramic saucers in a hot steamer, ladle a thin layer of batter into each cup, cover for 5 minutes until translucent, then top with scallion oil, shrimp flakes, pork rinds, and sweet fish sauce.",
+                "ingredients_used": [
+                    "Rice flour",
+                    "Tapioca starch",
+                    "Green onions (sliced)",
+                    "Fresh shrimp (shelled)",
+                    "Pork skin (for rinds)",
+                    "Fish sauce"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Hủ Tiếu Nam Vang",
+        "description": "A popular Cambodian-Chinese-Vietnamese hybrid noodle soup featuring chewy clear tapioca noodles, pork broth, minced meat, pork slices, liver, and quail eggs.",
+        "ingredients": [
+            {
+                "name": "Pork tubular bones",
+                "category": "Meat",
+                "quantity": "1",
+                "unit": "kilogram"
+            },
+            {
+                "name": "Ground pork",
+                "category": "Meat",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork loin (sliced)",
+                "category": "Meat",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork liver (sliced)",
+                "category": "Meat",
+                "quantity": "100",
+                "unit": "gram"
+            },
+            {
+                "name": "Boiled quail eggs",
+                "category": "Dairy",
+                "quantity": "10",
+                "unit": "piece"
+            },
+            {
+                "name": "Dried shrimp & Squid",
+                "category": "Meat",
+                "quantity": "50",
+                "unit": "gram"
+            },
+            {
+                "name": "Hủ tiếu noodles (tapioca based)",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Chinese chives & Garlic chives",
+                "category": "Produce",
+                "quantity": "1",
+                "unit": "bunch"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Simmer parboiled pork tubular bones along with toasted dried shrimp and squid for 2 hours, skimming constantly to keep the broth perfectly clear.",
+                "ingredients_used": [
+                    "Pork tubular bones",
+                    "Dried shrimp & Squid"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Sauté the ground pork in a pan with minced garlic and seasoning until fully cooked and crumbly.",
+                "ingredients_used": [
+                    "Ground pork"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Poach the pork loin slices and pork liver slices directly in the hot bone broth until cooked through, then remove and plunge into cold water to prevent darkening.",
+                "ingredients_used": [
+                    "Pork loin (sliced)",
+                    "Pork liver (sliced)"
+                ]
+            },
+            {
+                "step_number": 4,
+                "instruction_text": "Quickly blanch the chewy tapioca hủ tiếu noodles in boiling water, shake dry, and toss immediately with fried garlic oil in a serving bowl to prevent sticking.",
+                "ingredients_used": [
+                    "Hủ tiếu noodles (tapioca based)"
+                ]
+            },
+            {
+                "step_number": 5,
+                "instruction_text": "Assemble the serving bowls by arranging pork slices, cooked ground pork, liver, quail eggs, and fresh Chinese chives over the noodles before ladling the scalding hot broth on top.",
+                "ingredients_used": [
+                    "Hủ tiếu noodles (tapioca based)",
+                    "Pork loin (sliced)",
+                    "Ground pork",
+                    "Pork liver (sliced)",
+                    "Boiled quail eggs",
+                    "Chinese chives & Garlic chives"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bún Riêu Cua",
+        "description": "A comforting freshwater crab tomato noodle soup topped with airy crab-egg soufflé patties, fried tofu, and congealed pork blood blocks.",
+        "ingredients": [
+            {
+                "name": "Minced paddy crab meat (with paste)",
+                "category": "Meat",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Eggs",
+                "category": "Dairy",
+                "quantity": "3",
+                "unit": "piece"
+            },
+            {
+                "name": "Roma tomatoes (wedged)",
+                "category": "Produce",
+                "quantity": "4",
+                "unit": "piece"
+            },
+            {
+                "name": "Fried tofu puffs",
+                "category": "Produce",
+                "quantity": "12",
+                "unit": "piece"
+            },
+            {
+                "name": "Pork ribs",
+                "category": "Meat",
+                "quantity": "500",
+                "unit": "gram"
+            },
+            {
+                "name": "Thin rice vermicelli noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Fine shrimp paste",
+                "category": "Condiments",
+                "quantity": "1",
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Simmer the pork ribs for 1.5 hours to extract a sweet, clear base broth.",
+                "ingredients_used": [
+                    "Pork ribs"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Whisk minced paddy crab meat with eggs and a touch of shrimp paste, then ladle gently into simmering broth until the protein floats up into cloud-like soufflé rafts.",
+                "ingredients_used": [
+                    "Minced paddy crab meat (with paste)",
+                    "Eggs",
+                    "Fine shrimp paste"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Sauté the tomato wedges until softened and add them to the soup along with fried tofu puffs to infuse color and tanginess.",
+                "ingredients_used": [
+                    "Roma tomatoes (wedged)",
+                    "Fried tofu puffs"
+                ]
+            },
+            {
+                "step_number": 4,
+                "instruction_text": "Ladle the vibrant red broth and floating crab egg cakes over fresh bowls of thin rice vermicelli noodles.",
+                "ingredients_used": [
+                    "Thin rice vermicelli noodles"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Mì Quảng",
+        "description": "Central Vietnamese flat turmeric rice noodles served with a highly concentrated shallow broth, pork, shrimp, crushed peanuts, and toasted rice crackers.",
+        "ingredients": [
+            {
+                "name": "Wide turmeric rice noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork belly (sliced)",
+                "category": "Meat",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Fresh head-on shrimp",
+                "category": "Meat",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Toasted sesame rice crackers (Bánh Đa)",
+                "category": "Grains",
+                "quantity": "2",
+                "unit": "piece"
+            },
+            {
+                "name": "Crushed roasted peanuts",
+                "category": "Produce",
+                "quantity": "4",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Cu Nen (Garlic-shallot hybrid chives)",
+                "category": "Produce",
+                "quantity": "3",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Annatto oil",
+                "category": "Fats",
+                "quantity": "2",
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Sauté crushed cu nen chives in vibrant red annatto oil until exceptionally fragrant.",
+                "ingredients_used": [
+                    "Cu Nen (Garlic-shallot hybrid chives)",
+                    "Annatto oil"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Toss the pork belly and shrimp into the oil, browning rapidly with heavy seasoning to yield a rich, highly concentrated shallow sauce base.",
+                "ingredients_used": [
+                    "Pork belly (sliced)",
+                    "Fresh head-on shrimp",
+                    "Annatto oil"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Layer wide turmeric rice noodles into a serving dish, ladle just enough intense broth to partially wet the noodles, then garnish heavily with crushed roasted peanuts and broken crunchy sesame rice crackers.",
+                "ingredients_used": [
+                    "Wide turmeric rice noodles",
+                    "Crushed roasted peanuts",
+                    "Toasted sesame rice crackers (Bánh Đa)"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Cao Lầu",
+        "description": "An exclusive, historic noodle dish from Hội An featuring thick, springy wood-ash clarified noodles, sweet char siu style pork, and crunchy fried square crackers.",
+        "ingredients": [
+            {
+                "name": "Ash-water lye rice noodles (Cao Lầu)",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork loin block",
+                "category": "Meat",
+                "quantity": "500",
+                "unit": "gram"
+            },
+            {
+                "name": "Five-spice powder",
+                "category": "Spices",
+                "quantity": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "name": "Soy sauce",
+                "category": "Condiments",
+                "quantity": "4",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Fried square dough croutons",
+                "category": "Grains",
+                "quantity": "50",
+                "unit": "gram"
+            },
+            {
+                "name": "Local wild greens mix",
+                "category": "Produce",
+                "quantity": "150",
+                "unit": "gram"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Marinate the entire pork loin block heavily in five-spice powder, soy sauce, garlic, and sugar for 2 hours.",
+                "ingredients_used": [
+                    "Pork loin block",
+                    "Five-spice powder",
+                    "Soy sauce"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Braise the pork in a pan until deeply caramelized, reserving the rich bottom pan glaze to act as your thick noodle dressing.",
+                "ingredients_used": [
+                    "Pork loin block"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Steam your unique, springy ash-water lye rice noodles, slice the braised pork thinly, and arrange them together over local wild greens before adding fried square dough croutons.",
+                "ingredients_used": [
+                    "Ash-water lye rice noodles (Cao Lầu)",
+                    "Pork loin block",
+                    "Fried square dough croutons",
+                    "Local wild greens mix"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Canh Hẹ",
+        "description": "A specialty thick tapioca noodle soup from Phú Yên completely blanketed in finely chopped fresh green chives and tender local fish cakes.",
+        "ingredients": [
+            {
+                "name": "Thick tapioca noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Fried Vietnamese fish cake sheets (Chả Cá)",
+                "category": "Meat",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Mackerel or Sailfish bones",
+                "category": "Meat",
+                "quantity": "500",
+                "unit": "gram"
+            },
+            {
+                "name": "Fresh green chives (finely minced)",
+                "category": "Produce",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Quail eggs (boiled)",
+                "category": "Dairy",
+                "quantity": "8",
+                "unit": "piece"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Simmer clean mackerel bones for 1 hour to yield a light, sweet seafood broth base.",
+                "ingredients_used": [
+                    "Mackerel or Sailfish bones"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Blanch thick tapioca noodles and place them into bowls alongside boiled quail eggs and sliced strips of fried fish cake.",
+                "ingredients_used": [
+                    "Thick tapioca noodles",
+                    "Quail eggs (boiled)",
+                    "Fried Vietnamese fish cake sheets (Chả Cá)"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Completely blanket the top surface of the bowl with a thick, dense layer of finely minced fresh green chives, then ladle scalding hot fish broth right over the herbs to flash-cook them.",
+                "ingredients_used": [
+                    "Fresh green chives (finely minced)",
+                    "Mackerel or Sailfish bones"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Canh Trảng Bàng",
+        "description": "A legendary clean, clear pork noodle soup from Tây Ninh showcasing dew-moistened thick flour noodles and tender boiled pork leg slices.",
+        "ingredients": [
+            {
+                "name": "Trảng Bàng thick rice noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork leg thigh section",
+                "category": "Meat",
+                "quantity": "800",
+                "unit": "gram"
+            },
+            {
+                "name": "Toasted shallots",
+                "category": "Produce",
+                "quantity": "4",
+                "unit": "piece"
+            },
+            {
+                "name": "Black peppercorns",
+                "category": "Spices",
+                "quantity": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Local herb platter",
+                "category": "Produce",
+                "quantity": "1",
+                "unit": "platter"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Simmer the entire pork leg thigh section slowly with toasted shallots and black peppercorns to create a crystal-clear pork essence broth.",
+                "ingredients_used": [
+                    "Pork leg thigh section",
+                    "Toasted shallots",
+                    "Black peppercorns"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Remove the tender pork leg, plunge it into cold water to preserve texture, and cut into neat, thin discs.",
+                "ingredients_used": [
+                    "Pork leg thigh section"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Submerge your Trảng Bàng rice noodles in boiling water, drain, top with the sliced boiled pork meat, cover with broth, and serve instantly alongside an assorted wild herb platter.",
+                "ingredients_used": [
+                    "Trảng Bàng thick rice noodles",
+                    "Pork leg thigh section",
+                    "Local herb platter"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Hủ Tiếu Mỹ Tho",
+        "description": "Southern Vietnamese noodle dish utilizing distinctively chewy, sun-dried clear glass noodles tossed in sweet soy reduction glaze.",
+        "ingredients": [
+            {
+                "name": "Sun-dried Mỹ Tho clear noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Sautéed minced pork",
+                "category": "Meat",
+                "quantity": "150",
+                "unit": "gram"
+            },
+            {
+                "name": "Whole boiled shrimp",
+                "category": "Meat",
+                "quantity": "6",
+                "unit": "piece"
+            },
+            {
+                "name": "Oyster sauce soy reduction",
+                "category": "Condiments",
+                "quantity": "4",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Crispy fried pork lardons",
+                "category": "Fats",
+                "quantity": "2",
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Blanch the clear, chewy sun-dried Mỹ Tho noodles and quickly coat them with your prepared oyster sauce soy reduction.",
+                "ingredients_used": [
+                    "Sun-dried Mỹ Tho clear noodles",
+                    "Oyster sauce soy reduction"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Top the glossy noodles with hot sautéed minced pork, peeled boiled shrimp, and a generous sprinkle of crispy fried pork lardons.",
+                "ingredients_used": [
+                    "Sautéed minced pork",
+                    "Whole boiled shrimp",
+                    "Crispy fried pork lardons"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Cơm Tấm",
+        "description": "Vibrant broken rice grain platter served with a sweet lemongrass-marinated grilled pork chop, egg-meat loaf, and sweet fish sauce dressing.",
+        "ingredients": [
+            {
+                "name": "Broken rice grains (Gạo Tấm)",
+                "category": "Grains",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Lemongrass pork chops",
+                "category": "Meat",
+                "quantity": "2",
+                "unit": "piece"
+            },
+            {
+                "name": "Steamed egg meat loaf (Chả Trứng)",
+                "category": "Meat",
+                "quantity": "1",
+                "unit": "slice"
+            },
+            {
+                "name": "Scallion oil oil garnish",
+                "category": "Fats",
+                "quantity": "2",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Sweet garlic chili fish sauce",
+                "category": "Condiments",
+                "quantity": "4",
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Steam the broken rice grains gently until perfectly fluffy yet distinct in texture.",
+                "ingredients_used": [
+                    "Broken rice grains (Gạo Tấm)"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Grill the lemongrass pork chops over a screaming hot griddle until deeply caramelized on the edges.",
+                "ingredients_used": [
+                    "Lemongrass pork chops"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Mound the warm broken rice on a flat plate, lay down your grilled cutlets, add a slice of egg meat loaf, and drizzle with scallion oil oil garnish and sweet fish sauce.",
+                "ingredients_used": [
+                    "Broken rice grains (Gạo Tấm)",
+                    "Lemongrass pork chops",
+                    "Steamed egg meat loaf (Chả Trứng)",
+                    "Scallion oil oil garnish",
+                    "Sweet garlic chili fish sauce"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Cơm Lam",
+        "description": "Sticky fragrant mountain rice packed densely and slow-roasted inside fresh bamboo segments over hot glowing coals.",
+        "ingredients": [
+            {
+                "name": "Fragrant sticky rice",
+                "category": "Grains",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Fresh green bamboo tubes",
+                "category": "Hardware",
+                "quantity": "3",
+                "unit": "piece"
+            },
+            {
+                "name": "Toasted peanut sesame salt (Muối Vừng)",
+                "category": "Condiments",
+                "quantity": "4",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Banana leaves",
+                "category": "Hardware",
+                "quantity": "1",
+                "unit": "piece"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Soak your fragrant sticky rice in water for 6 hours, then pack it snugly inside the fresh green bamboo tubes, adding a touch of water.",
+                "ingredients_used": [
+                    "Fragrant sticky rice",
+                    "Fresh green bamboo tubes"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Plug the tube open ends firmly using rolled banana leaves, then roast over hot coals, rotating regularly for 1 hour until the bamboo outer husk burns down black.",
+                "ingredients_used": [
+                    "Fresh green bamboo tubes",
+                    "Banana leaves"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Peel away the charred bamboo layers to expose the clean internal rice log, slice into rounds, and serve with toasted peanut sesame salt.",
+                "ingredients_used": [
+                    "Fresh green bamboo tubes",
+                    "Fragrant sticky rice",
+                    "Toasted peanut sesame salt (Muối Vừng)"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Cơm Hến",
+        "description": "A crisp, complex room-temperature rice bowl from Huế filled with tiny stir-fried baby clams, crunch pork skin rinds, and warm clam broth on the side.",
+        "ingredients": [
+            {
+                "name": "Cooked rice (cooled)",
+                "category": "Grains",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Tiny baby marsh clams",
+                "category": "Meat",
+                "quantity": "250",
+                "unit": "gram"
+            },
+            {
+                "name": "Puffy pork rinds",
+                "category": "Fats",
+                "quantity": "30",
+                "unit": "gram"
+            },
+            {
+                "name": "Huế shrimp paste",
+                "category": "Condiments",
+                "quantity": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "name": "Shredded banana flower blossoms",
+                "category": "Produce",
+                "quantity": "100",
+                "unit": "gram"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Boil baby marsh clams to clean them, keeping the residual pot water as your seasoned warm side broth.",
+                "ingredients_used": [
+                    "Tiny baby marsh clams"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Stir-fry the shucked clam flesh rapidly with minced garlic and a touch of intense Huế shrimp paste.",
+                "ingredients_used": [
+                    "Tiny baby marsh clams",
+                    "Huế shrimp paste"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Assemble by scattering the sautéed clams over bowls of cool cooked rice, adding crunchy puffy pork rinds, shredded banana flower blossoms, and serving the warm broth on the side.",
+                "ingredients_used": [
+                    "Tiny baby marsh clams",
+                    "Cooked rice (cooled)",
+                    "Puffy pork rinds",
+                    "Shredded banana flower blossoms"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Gỏi Cuốn",
+        "description": "Healthy translucent fresh summer rice paper rolls wrapping fresh shrimp, lean pork slices, vermicelli, and crisp garlic chive stems.",
+        "ingredients": [
+            {
+                "name": "Rice paper sheets (Bánh Tráng)",
+                "category": "Grains",
+                "quantity": "12",
+                "unit": "piece"
+            },
+            {
+                "name": "Boiled shrimp (split lengthwise)",
+                "category": "Meat",
+                "quantity": "12",
+                "unit": "piece"
+            },
+            {
+                "name": "Boiled pork shoulder slices",
+                "category": "Meat",
+                "quantity": "150",
+                "unit": "gram"
+            },
+            {
+                "name": "Rice vermicelli lines",
+                "category": "Grains",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Whole garlic chive stems",
+                "category": "Produce",
+                "quantity": "12",
+                "unit": "piece"
+            },
+            {
+                "name": "Hoisin peanut dipping sauce",
+                "category": "Condiments",
+                "quantity": "1",
+                "unit": "bowl"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Lightly moisten a rice paper sheet until pliable, then layer down crisp lettuce, herbs, and a small bundle of rice vermicelli lines.",
+                "ingredients_used": [
+                    "Rice paper sheets (Bánh Tráng)",
+                    "Rice vermicelli lines"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Place boiled pork shoulder slices followed by the split shrimp halves skin-side down on the paper boundary.",
+                "ingredients_used": [
+                    "Boiled pork shoulder slices",
+                    "Boiled shrimp (split lengthwise)"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Tuck the sides in firmly, roll halfway, drop in a whole garlic chive stem so it protrudes outward, and roll completely shut; serve alongside hoisin peanut dipping sauce.",
+                "ingredients_used": [
+                    "Rice paper sheets (Bánh Tráng)",
+                    "Whole garlic chive stems",
+                    "Hoisin peanut dipping sauce"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Chả Giò",
+        "description": "Crispy fried golden egg rolls loaded with minced pork, wood-ear mushrooms, shredded taro, and glass cellphane noodles.",
+        "ingredients": [
+            {
+                "name": "Minced pork",
+                "category": "Meat",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Dried wood-ear mushrooms (hydrated & chopped)",
+                "category": "Produce",
+                "quantity": "30",
+                "unit": "gram"
+            },
+            {
+                "name": "Shredded taro root",
+                "category": "Produce",
+                "quantity": "100",
+                "unit": "gram"
+            },
+            {
+                "name": "Glass cellophane noodles",
+                "category": "Grains",
+                "quantity": "50",
+                "unit": "gram"
+            },
+            {
+                "name": "Deep-fry spring roll wrappers",
+                "category": "Grains",
+                "quantity": "20",
+                "unit": "piece"
+            },
+            {
+                "name": "Frying oil",
+                "category": "Fats",
+                "quantity": "500",
+                "unit": "milliliter"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Thoroughly knead the minced pork together with chopped wood-ear mushrooms, shredded taro, and soaked cut glass cellophane noodles.",
+                "ingredients_used": [
+                    "Minced pork",
+                    "Dried wood-ear mushrooms (hydrated & chopped)",
+                    "Shredded taro root",
+                    "Glass cellophane noodles"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Enclose small portions of your meat filling tightly inside deep-fry spring roll wrappers, pasting the tips down securely.",
+                "ingredients_used": [
+                    "Deep-fry spring roll wrappers"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Submerge the rolls inside bubbling frying oil over medium heat, cooking until the skins crisp up into a rich golden brown.",
+                "ingredients_used": [
+                    "Frying oil",
+                    "Deep-fry spring roll wrappers"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Tét",
+        "description": "A dense Lunar New Year cylindrical sticky rice log packed with pork belly and yellow mung bean paste, wrapped tightly in banana leaves.",
+        "ingredients": [
+            {
+                "name": "Glutinous sweet rice",
+                "category": "Grains",
+                "quantity": "1",
+                "unit": "kilogram"
+            },
+            {
+                "name": "Peeled split mung beans",
+                "category": "Grains",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork belly strips",
+                "category": "Meat",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Banana leaf sheets",
+                "category": "Hardware",
+                "quantity": "6",
+                "unit": "piece"
+            },
+            {
+                "name": "Butcher string ties",
+                "category": "Hardware",
+                "quantity": "1",
+                "unit": "roll"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Flatten out a dense layer of glutinous sweet rice over clean banana leaf sheets, layer mashed cooked mung beans down the spine, and top with seasoned pork belly strips.",
+                "ingredients_used": [
+                    "Glutinous sweet rice",
+                    "Banana leaf sheets",
+                    "Peeled split mung beans",
+                    "Pork belly strips"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Roll the leaf tightly into a uniform cylinder, fold down the open ends neatly, and secure structural stability using multiple butcher string ties wrapped horizontally.",
+                "ingredients_used": [
+                    "Banana leaf sheets",
+                    "Butcher string ties"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Submerge your wrapped log completely inside a large stockpot of boiling water, boiling continuously for 8 hours.",
+                "ingredients_used": [
+                    "Butcher string ties"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Cuốn",
+        "description": "Delicate, silk-thin steamed fermented rice sheets filled with savory minced pork and wood-ear mushrooms, brushed with scallion oil.",
+        "ingredients": [
+            {
+                "name": "Fermented rice flour blend",
+                "category": "Grains",
+                "quantity": "250",
+                "unit": "gram"
+            },
+            {
+                "name": "Ground pork mix",
+                "category": "Meat",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Chopped wood-ear mushrooms",
+                "category": "Produce",
+                "quantity": "50",
+                "unit": "gram"
+            },
+            {
+                "name": "Crispy fried shallots",
+                "category": "Produce",
+                "quantity": "4",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Vietnamese pork sausage ham (Chả Lụa)",
+                "category": "Meat",
+                "quantity": "150",
+                "unit": "gram"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Stir-fry ground pork mix and chopped wood-ear mushrooms together in a pan until thoroughly cooked through.",
+                "ingredients_used": [
+                    "Ground pork mix",
+                    "Chopped wood-ear mushrooms"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Ladle a thin layer of fermented rice flour blend onto a taut fabric steamer screen cloth, cover with a lid for 45 seconds to steam into a delicate sheet.",
+                "ingredients_used": [
+                    "Fermented rice flour blend"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Lift the delicate translucent sheet off using a bamboo stick, drop in your cooked pork filling, roll into a log, and serve garnished with crispy fried shallots and chả lụa slices.",
+                "ingredients_used": [
+                    "Fermented rice flour blend",
+                    "Ground pork mix",
+                    "Chopped wood-ear mushrooms",
+                    "Crispy fried shallots",
+                    "Vietnamese pork sausage ham (Chả Lụa)"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Khọt",
+        "description": "Miniature crispy savory coconut rice pancakes cooked in a special dimpled cast-iron tray, topped with single whole shrimps and green scallion cream.",
+        "ingredients": [
+            {
+                "name": "Rice flour pancake mix",
+                "category": "Grains",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Thick coconut cream",
+                "category": "Dairy",
+                "quantity": "150",
+                "unit": "milliliter"
+            },
+            {
+                "name": "Small deveined shrimp",
+                "category": "Meat",
+                "quantity": "20",
+                "unit": "piece"
+            },
+            {
+                "name": "Mung bean paste",
+                "category": "Grains",
+                "quantity": "50",
+                "unit": "gram"
+            },
+            {
+                "name": "Scallion oil grease",
+                "category": "Fats",
+                "quantity": "3",
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Whisk rice flour pancake mix with thick coconut cream and water until it reaches a smooth, pourable pouring thickness.",
+                "ingredients_used": [
+                    "Rice flour pancake mix",
+                    "Thick coconut cream"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Oil the dimpled pockets of a hot cast-iron tray, pour batter into each slot, and drop a spoonful of mung bean paste and a small deveined shrimp in the center of each mini-crepe.",
+                "ingredients_used": [
+                    "Mung bean paste",
+                    "Small deveined shrimp",
+                    "Rice flour pancake mix"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Cover with a lid for 3 minutes, then cook uncovered until the shell edges turn crunch-golden; slide out and gloss over with scallion oil grease.",
+                "ingredients_used": [
+                    "Scallion oil grease"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Lẩu Mắm",
+        "description": "An intense, deeply savory Southern fermented mud fish hotpot packed with seafood, pork belly, eggplant cubes, and assorted river wild flowers.",
+        "ingredients": [
+            {
+                "name": "Fermented mud fish paste (Mắm Cá Linh)",
+                "category": "Condiments",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Pork belly cubes",
+                "category": "Meat",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Squid & Shrimp platter",
+                "category": "Meat",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Eggplant (cubed)",
+                "category": "Produce",
+                "quantity": "2",
+                "unit": "piece"
+            },
+            {
+                "name": "Bruised lemongrass stalks",
+                "category": "Spices",
+                "quantity": "4",
+                "unit": "piece"
+            },
+            {
+                "name": "Water lily & Sesbania river flowers",
+                "category": "Produce",
+                "quantity": "200",
+                "unit": "gram"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Boil fermented mud fish paste in water until the fish flesh completely dissolves, then strain the broth carefully through a fine sieve to remove bones.",
+                "ingredients_used": [
+                    "Fermented mud fish paste (Mắm Cá Linh)"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Simmer the strained pungent broth alongside bruised lemongrass stalks, pork belly cubes, and eggplant cubes for 30 minutes.",
+                "ingredients_used": [
+                    "Fermented mud fish paste (Mắm Cá Linh)",
+                    "Bruised lemongrass stalks",
+                    "Pork belly cubes",
+                    "Eggplant (cubed)"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Transfer the boiling soup to a tabletop hotpot collar, cooking your fresh squid & shrimp platter and wild river flowers on the fly as you dine.",
+                "ingredients_used": [
+                    "Squid & Shrimp platter",
+                    "Water lily & Sesbania river flowers"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Tráng Cuốn Thịt Heo",
+        "description": "A popular wrapper dish featuring premium boiled pork belly strips with double-ended fat layers, hand-wrapped in paper with dense wild greens.",
+        "ingredients": [
+            {
+                "name": "Double-fat pork belly strip",
+                "category": "Meat",
+                "quantity": "600",
+                "unit": "gram"
+            },
+            {
+                "name": "Dry rice paper sheets",
+                "category": "Grains",
+                "quantity": "15",
+                "unit": "piece"
+            },
+            {
+                "name": "Pungent anchovy dipping sauce (Mắm Nêm)",
+                "category": "Condiments",
+                "quantity": "1",
+                "unit": "bowl"
+            },
+            {
+                "name": "Green mango & Cucumber matches",
+                "category": "Produce",
+                "quantity": "150",
+                "unit": "gram"
+            },
+            {
+                "name": "Assorted central herbs platter",
+                "category": "Produce",
+                "quantity": "200",
+                "unit": "gram"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Gently simmer the double-fat pork belly strip until cooked through, maintaining clear translucent properties for the fat layers, then slice into long ribbons.",
+                "ingredients_used": [
+                    "Double-fat pork belly strip"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Prepare your intense mắm nêm sauce by tempering pungent anchovy dipping sauce with crushed pineapple, lime juice, chili, and sugar.",
+                "ingredients_used": [
+                    "Pungent anchovy dipping sauce (Mắm Nêm)"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Lay a dry rice paper sheet flat, stack assorted herbs, green mango & cucumber matches, and a ribbon of pork belly before rolling cleanly to dip into the mắm nêm.",
+                "ingredients_used": [
+                    "Dry rice paper sheets",
+                    "Assorted central herbs platter",
+                    "Green mango & Cucumber matches",
+                    "Double-fat pork belly strip",
+                    "Pungent anchovy dipping sauce (Mắm Nêm)"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bún Sứa Nha Trang",
+        "description": "A crisp, refreshing coastal noodle soup from Nha Trang featuring crunchy jellyfish, savory sailfish cakes, and a light, clear broth simmered from fresh scad or ponyfish.",
+        "ingredients": [
+            {
+                "name": "Crunchy fresh jellyfish (prepared)",
+                "category": "Meat",
+                "quantity": "300",
+                "unit": "gram"
+            },
+            {
+                "name": "Nha Trang fried fish cakes (Chả Cá)",
+                "category": "Meat",
+                "quantity": "200",
+                "unit": "gram"
+            },
+            {
+                "name": "Fresh scad or ponyfish bones",
+                "category": "Meat",
+                "quantity": "800",
+                "unit": "gram"
+            },
+            {
+                "name": "Roma tomatoes (wedged)",
+                "category": "Produce",
+                "quantity": "3",
+                "unit": "piece"
+            },
+            {
+                "name": "Rice vermicelli noodles",
+                "category": "Grains",
+                "quantity": "400",
+                "unit": "gram"
+            },
+            {
+                "name": "Raw raw herbs & Cabbage mix",
+                "category": "Produce",
+                "quantity": "150",
+                "unit": "gram"
+            },
+            {
+                "name": "Mắm Tôm (Shrimp paste)",
+                "category": "Condiments",
+                "quantity": "1",
+                "unit": "teaspoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Slowly simmer the fresh scad or ponyfish bones in water for 1.5 hours, skimming frequently to extract a sweet, completely clear coastal fish broth.",
+                "ingredients_used": [
+                    "Fresh scad or ponyfish bones"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Sauté the Roma tomatoes until slightly softened and stir them into the clear fish broth along with a hint of mắm tôm for subtle depth.",
+                "ingredients_used": [
+                    "Roma tomatoes (wedged)",
+                    "Mắm Tôm (Shrimp paste)"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Blanch the rice vermicelli noodles and arrange them neatly in bowls, adding sliced rows of fried fish cakes and a handful of raw herbs & cabbage mix.",
+                "ingredients_used": [
+                    "Rice vermicelli noodles",
+                    "Nha Trang fried fish cakes (Chả Cá)",
+                    "Raw raw herbs & Cabbage mix"
+                ]
+            },
+            {
+                "step_number": 4,
+                "instruction_text": "Top the bowls with your crunchy fresh jellyfish slices, ladle the boiling tomato fish broth on top, and serve immediately with fresh chili.",
+                "ingredients_used": [
+                    "Crunchy fresh jellyfish (prepared)",
+                    "Roma tomatoes (wedged)"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bánh Tráng Trộn",
+        "description": "The quintessential Southern Vietnamese street food snack: shredded rice paper strips mixed with green mango, jerky, hard-boiled eggs, and a tangy kumquat shallot oil dressing.",
+        "ingredients": [
+            {
+                "name": "Shredded rice paper strips",
+                "category": "Grains",
+                "quantity": "100",
+                "unit": "gram"
+            },
+            {
+                "name": "Shredded green mango",
+                "category": "Produce",
+                "quantity": "50",
+                "unit": "gram"
+            },
+            {
+                "name": "Spicy Vietnamese beef jerky (shredded)",
+                "category": "Meat",
+                "quantity": "30",
+                "unit": "gram"
+            },
+            {
+                "name": "Dried shrimp (Tép Khô)",
+                "category": "Meat",
+                "quantity": "20",
+                "unit": "gram"
+            },
+            {
+                "name": "Boiled quail eggs",
+                "category": "Dairy",
+                "quantity": "5",
+                "unit": "piece"
+            },
+            {
+                "name": "Aromatic shallot oil",
+                "category": "Fats",
+                "quantity": "2",
+                "unit": "tablespoon"
+            },
+            {
+                "name": "Fresh Vietnamese coriander (Rau Răm)",
+                "category": "Produce",
+                "quantity": "1",
+                "unit": "handful"
+            },
+            {
+                "name": "Fresh kumquat juice",
+                "category": "Produce",
+                "quantity": "1",
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "instruction_text": "Combine the shredded rice paper strips, shredded green mango, beef jerky, and dried shrimp in a large mixing bowl.",
+                "ingredients_used": [
+                    "Shredded rice paper strips",
+                    "Shredded green mango",
+                    "Spicy Vietnamese beef jerky (shredded)",
+                    "Dried shrimp (Tép Khô)"
+                ]
+            },
+            {
+                "step_number": 2,
+                "instruction_text": "Drizzle the aromatic shallot oil and fresh kumquat juice over the ingredients, tossing quickly and gently to soften the rice paper without making it mushy.",
+                "ingredients_used": [
+                    "Aromatic shallot oil",
+                    "Fresh kumquat juice",
+                    "Shredded rice paper strips"
+                ]
+            },
+            {
+                "step_number": 3,
+                "instruction_text": "Add chopped Vietnamese coriander and the boiled quail eggs, give it one final quick toss, and transfer to a serving container to enjoy instantly.",
+                "ingredients_used": [
+                    "Fresh Vietnamese coriander (Rau Răm)",
+                    "Boiled quail eggs"
+                ]
+            }
+        ]
+    }
+]

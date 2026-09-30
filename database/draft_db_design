@@ -98,7 +98,8 @@ CREATE TABLE IF NOT EXISTS trecipes (
 CREATE TABLE IF NOT EXISTS tingredients (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT NOT NULL,
-  category_id INTEGER NOT NULL
+  category_id INTEGER NOT NULL,
+  FOREIGN KEY (category_id) REFERENCES tcategories (id)
 )
 
 

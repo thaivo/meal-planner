@@ -34,8 +34,9 @@ def ingest_multiple_recipes_from_json(json_path: Path):
                     ingredient = get_or_create(session, Ingredient, name=ing["name"], category_id=category.id)
                     ingredient_id_map[ing["name"]] = ingredient.id
 
-                    unit = get_or_create(session, Unit, name=ing["unit"], abbreviation=ing["unit"][:3])
-
+                    # TODO: Consider adding an abbreviation field to the Unit model if needed
+                    # unit = get_or_create(session, Unit, name=ing["unit"], abbreviation=ing["unit"][:3])
+                    unit = get_or_create(session, Unit, name=ing["unit"])
                     recipe_ing = RecipeIngredientLink(
                         recipe_id=recipe.id,
                         ingredient_id=ingredient.id,
@@ -75,5 +76,5 @@ def ingest_multiple_recipes_from_json(json_path: Path):
 
 if __name__ == "__main__":
     # Example local runner execution pattern
-    recipe_file = Path(__file__).parent.parent / "data" / "pho_recipe.json"
+    recipe_file = Path(__file__).parent.parent / "scripts" / "data" / "recipes.json"
     ingest_multiple_recipes_from_json(recipe_file)
