@@ -12,3 +12,11 @@ Refer [link](https://fastapi.tiangolo.com/virtual-environments/#check-the-virtua
 Install packages directly: ``uv pip install "fastapi[standard]"``
 
 [Why Virtual Environments](https://fastapi.tiangolo.com/virtual-environments/#why-virtual-environments)
+
+## How to start backend service
+Run the command in the main dir: ``uv run fastapi dev``
+
+## Manual Testing
+Example:
+In terminal, run the curl command to send a request:
+![alt text](image.png)
